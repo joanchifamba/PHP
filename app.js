@@ -12,7 +12,7 @@ app.post(function (req, res, next) {
 app.use(express.urlencoded({ extended: true }));
 
 const serverLog = function () {
-    console.log(process.env.SERVER_RUNNING_MESSAGE, server.address().port);
+    console.log(process.env.SERVER_MESSAGE, server.address().port);
 }
 
 const server = app.listen(process.env.EXPRESS_PORT, serverLog);

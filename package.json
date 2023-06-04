@@ -1,18 +1,16 @@
 {
-  "name": "personal_project",
+  "name": "php",
   "version": "1.1.1",
-  "description": "Personal Project",
+  "description": "Personal Hobby Project",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon --inspect"
   },
   "keywords": [
-    "NODE",
-    "EXPRESS",
-    "MONGO"
+    "MEAN"
   ],
-  "author": "Koya Patrice Dzogbema",
+  "author": "Joan Chifamba",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.1.3",
