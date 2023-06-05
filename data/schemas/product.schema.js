@@ -12,7 +12,7 @@ productSchema = mongoose.Schema({
     },
     companyLogo: {
         type: String,
-        required : true
+        required : false
     },
     reviews: {
         type:[reviewsSchema],
